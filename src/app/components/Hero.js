@@ -51,7 +51,9 @@ export default function Hero() {
     <HeroSection>
       <Heading>{t("heroTitle")}</Heading>
       <Subheading>{t("heroSub")}</Subheading>
-      <Button>{t("heroButton")}</Button>
+      <Button onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}>
+        {t("heroButton")}
+      </Button>
     </HeroSection>
   );
 }
