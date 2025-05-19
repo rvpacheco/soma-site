@@ -132,18 +132,7 @@ export default function Projects() {
           </Info>
         </Card>
 
-        <Card>
-          <Image src="/yoi.png" alt="Yoi Ecotours Project" />
-          <Info>
-            <ProjectName>Yoi Ecotours</ProjectName>
-            <Description>
-              Website redesign with focus on immersive interaction and clean UI for eco-tourism.
-            </Description>
-            <Link href="https://yoitours.vercel.app/activities.html" target="_blank" rel="noopener noreferrer">
-              View Online
-            </Link>
-          </Info>
-        </Card>
+        
 
       </Grid>
     </Section>
